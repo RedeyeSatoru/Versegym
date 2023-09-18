@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bmr.css">
+    <link rel="stylesheet" href="CSS/join.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Image/logo.jpeg">
+            <div>Fitness zone</div>
+    </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="exercise.html">Exercise</a></li>
+                <li><a href="bmr.html">BMR Calculator</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        
+        <div class="right">
+            <button class="btn" > <a href="join now.html" class="btnactive">Join Now </button></a>
+            <button class="btn" ><a href="social.html" class="btnactive"> Social Media</button></a>
+        </div>
+    </header>
+    <div class="bmr-calculator">
+    <h2>BMR Calculator</h2>
+    <div class="controls">
+        <form>
+            <h3>Age</h3>
+            <input type="text" id="age" value="28">
+            <div class="gender">
+                <h3>Gender</h3>
+                <input type="radio" id="male" value="male" name="gender" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+            <div class="height">
+            <h3>Height</h3>
+            <input type="text" id="height" value="180">
+            <div class="unit">cm</div>
+            </div>
+            <div class="weight">
+                <h3>weight</h3>
+                <input type="text" id="weight" value="65">
+                <div class="unit">kg</div>
+
+            </div>
+        </form>
+
+    </div>
+
+    <div class="result">
+        <button class="calculate-btn">Calculate</button>
+
+        <div class="result-message"><span class="calories">
+            1,640</span> Calories/day
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <div class="container2">Copyright &copy; 2023 Fitness Zone</div>        
+</div> 
+<script src="java/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,115 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    background: url(/Image/william-daigneault-olVJDJYKPSI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    display: inline block;
+    top: 20px;
+    left: 60px;
+
+}
+.left img{
+    width: 80px;
+    border-radius: 200px;
+    align-items: center;
+    position: relative;
+    /* bottom: 10p; */
+    right: 28px;
+    /* filter: invert(100%); */
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    color: rgb(224, 210, 12);
+    bottom: 50px;
+    left: 90px;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+}
+.right{
+    position: absolute;
+    top: 43px;
+    right: 34px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: rgb(224, 210, 12);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: "Baloo Bhai", cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: rgb(224, 210, 12);
+    padding:4px 14px ;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+    
+}
+.btnactive{
+    text-decoration: none;
+    color: rgb(224, 210, 12);
+
+}
+.container2{
+    width: 15%;
+    margin: 0 auto;
+}
+.container3{
+    width: 80%;
+
+}
+.container3 img{
+    position: relative  ;
+    bottom: 80px;
+    left: 800px;
+    width: 500px;
+    filter: sepia(60%);
+    border: 0.1px solid rgb(224, 210, 12);
+    border-radius: 10px;
+}
+h2{
+    font-size: 29px;
+    position: relative;
+    top: 100px;
+    left: 190px;
+    color: rgb(224, 210, 12);
+}
+.headerf, .footer{
+    width: 1519.59px;
+    position: relative;        
+    background: #000000;
+    padding: 10px 0;
+    color: rgb(224, 210, 12);
+    bottom: -100px;
+}

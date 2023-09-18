@@ -1,0 +1,99 @@
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    height: 290px;
+    position: relative;
+    left: 350px;
+    bottom: 19px;
+    border-radius: 28px;
+    
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 308px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(224, 210, 12);
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.container4{
+    box-sizing: border-box;
+    position: relative;
+    top:15px;
+    right: -150px;
+    width: 1100px;
+    height: 540px;
+    /* background-color: antiquewhite; */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: rgba(224, 210, 12, 0.459);
+    width: 220px;
+    height: 400px;
+    margin: 60px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.card-image{
+    height: 150px;
+    margin-bottom:15px ;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+p1{
+    text-align: center;
+    position: relative;
+}
+.card1{
+    background-image:url(/Image/card1.jpg) ;
+}
+.card2{
+    background-image: url(/Image/card\ 2.jpg);
+}
+.card3{
+    background-image: url(/Image/card\ 3.jpg);
+}
+.carda{
+    background-color: black;
+    color: rgb(224, 210, 12);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;  
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgba(224, 210, 12, 0);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    
+}
+.hh2{
+    position: relative;
+    top: -670px;
+    left: 1px;
+}

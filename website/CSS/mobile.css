@@ -1,0 +1,40 @@
+
+@media (max-width: 768px) {
+    .left {
+        left: 20px;     
+    }
+
+    .left div {
+        font-size: 20px; 
+    }
+
+    .container2 {
+        width: 40%; /
+    }
+
+    .container3 img {
+        left: 20px; 
+        width: 100%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .left {
+        display: none; 
+    }
+
+    .container3 img {
+        bottom: 20px; 
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    .headerf, .footer {
+        bottom: -50px; 
+    }
+}
+
+
